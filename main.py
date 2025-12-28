@@ -5,12 +5,12 @@ import uvicorn
 from typing import Dict, Any
 import logging
 
-from models.schemas import (
+from app.models.schemas import (
     MedicationValidationRequest,
     TestValidationRequest,
     ValidationResponse
 )
-from services.medication_tests_validation_service import (
+from app.services.medication_tests_validation_service import (
     MedicationValidationService,
     TestValidationService
 )

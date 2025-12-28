@@ -1,8 +1,8 @@
 import asyncio
 import json
-from services.medication_tests_validation_service import TestValidationService
-from models.schemas import TestValidationRequest
-from services.sample_clinical_data import TEST_SAMPLES
+from app.services.medication_tests_validation_service import TestValidationService
+from app.models.schemas import TestValidationRequest
+from app.services.sample_clinical_data import TEST_SAMPLES
 
 
 async def test_diagnostic_validation(sample_index: int = 0):
