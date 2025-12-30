@@ -12,7 +12,7 @@ from models.schemas import (
     DetailedValidation,
     RecommendedAlternative
 )
-from config import settings, Status, Severity
+from app.core.config import settings, Status, Severity
 
 logger = logging.getLogger(__name__)
 

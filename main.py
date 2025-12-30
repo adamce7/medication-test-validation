@@ -14,7 +14,7 @@ from app.services.medication_tests_validation_service import (
     MedicationValidationService,
     TestValidationService
 )
-from config import settings
+from app.core.config import settings
 
 # Configure logging
 logging.basicConfig(
